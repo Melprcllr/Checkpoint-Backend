@@ -92,3 +92,9 @@ dans le fichier principal ``index.ts``</br>
 Lancer la commande ``npm start``</br>
 puis se rendre à l'url </br>
 http://localhost:4000
+
+### 9- Ajout de la mutation et des queries demandées
+- mutation addCountry : ajoute un pays avec le code, le nom, l'emoji et le continent
+- query countries : récupère la liste de tous les pays avec leurs attributs (code, nom, emoji)
+- query country : récupère un pays spécifique en fonction de son code
+- query countriesByContinent : récupère tous les pays d'un continent donnée en fonction du code du continent.
